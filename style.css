@@ -1,0 +1,19 @@
+table, tr, th, td, caption{
+    border: 1px solid rgb(221, 16, 16);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+
+}
+img{ animation: figure 5s 1 alternate;
+    
+}
+@keyframes figure { from{
+    width: 0px;
+    height: 0px;
+} to{
+    width: 300px;
+    height: 200px;
+}
+    
+}
